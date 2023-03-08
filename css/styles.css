@@ -776,7 +776,7 @@ footer > p {
 }
 
 .modal-carta > div::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: none;
 }
 
 .modal-carta > div::-webkit-scrollbar-thumb {
@@ -795,6 +795,7 @@ footer > p {
     justify-content: center;
     border: none;
     cursor: pointer;
+    background: none;
 }
 
 .cerrar-modal > span {
