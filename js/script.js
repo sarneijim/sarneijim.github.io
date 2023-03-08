@@ -5,7 +5,7 @@ $(document).ready(function () {
     $(".modal-carta").hide();
     $(".alergenos").hide();
     $(".foto-producto").hide();
-    $("#pantalla-carga").delay(2000).slideUp("slow");
+    $("#pantalla-carga").delay(300).slideUp("slow");
 
     // Adaptar anchura del contenido cuando el menú para en 200 px
     if ($("#menu").width() == "200") {
