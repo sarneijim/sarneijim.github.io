@@ -786,21 +786,24 @@ footer > p {
 }
 
 .cerrar-modal {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0.5rem;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 7px;
+    right: 7px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
     cursor: pointer;
     background: none;
+    align-self: end;
+    height: 0;
+    
 }
 
 .cerrar-modal > span {
     font-size: 30pt;
     color: #F6A963;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .cerrar-modal:hover > span {
