@@ -40,11 +40,11 @@ $(document).ready(function () {
     });
 
     $(".ver-alergenos").click(function () {
-        $(this).siblings('.alergenos').slideDown();
+        $(this).siblings('.alergenos').slideToggle();
     });
 
     $(".ver-foto").click(function () {
-        $(this).siblings('.foto-producto').slideDown();
+        $(this).siblings('.foto-producto').slideToggle();
     });
 
     $("#desayunos").click(function () {
