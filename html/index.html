@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto | Feria83</title>
+    <title>Feria83</title>
 
     <link rel="stylesheet" href="https://use.typekit.net/trt8csw.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -29,10 +29,10 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="description" content="Contacta con Feria 83. Calle Feria 83, 41002, Sevilla">
+    <meta name="description" content="En el corazón de Sevilla, Feria83 es el brunch familiar con ambiente acogedor, una propuesta gastronómica única, el mejor café y repostería casera.">
 
     <meta property="og:title" content="Feria83">
-    <meta property="og:description" content="Contacta con Feria 83. Calle Feria 83, 41002, Sevilla"> <!-- ˜300 chars -->
+    <meta property="og:description" content="En el corazón de Sevilla, Feria83 es el brunch familiar con ambiente acogedor, una propuesta gastronómica única, el mejor café y repostería casera."> <!-- ˜300 chars -->
     <meta property="og:site_name" content="Feria83">
     <meta property="og:type" content="website">
     <meta property="og:url" content="www.feria83.com">
@@ -43,8 +43,8 @@
 
 </head>
 
-<body>
-    
+<body id="body-index">
+
     <div id="pantalla-carga">
         
         <figure>
@@ -57,6 +57,15 @@
         </div>
     </div>
 
+    <header id="header-index">
+        <video id="video-ordenador" width="1920" height="1080" autoplay muted loop playsinline>
+            <source src="../img/index/better_together_eggs.mp4" type="video/mp4">
+        </video>
+        <video id="video-movil" width="" height="" autoplay muted loop playsinline>
+            <source src="../img/index/better_together_eggs_mobile.mp4" type="video/mp4">
+        </video>
+    </header>
+
     <nav id="menu">
 
         <button id="cierra-menu">
@@ -66,12 +75,12 @@
         </button>
 
         <ul>
-            <li id="logotipo-menu"><a href="./index.html"><img src="../img/iconos/logotipo_responsive.svg" alt="Logotipo de Feria83"></a></li>
+            <li style="background-color:#228DA8" id="logotipo-menu"><a href="./index.html"><img src="../img/iconos/logotipo_responsive.svg" alt="Logotipo de Feria83"></a></li>
             <li><a href="./carta.html">Carta<img src="../img/iconos/carta.svg" alt="Carta"></a></li>
             <li><a href="./tarjeta-regalo.html">Tarjeta regalo<img src="../img/iconos/tarjeta_regalo.svg" alt="Tarjeta regalo"></a></li>
             <li><a href="./grupos.html">¿Sois un grupo?<img src="../img/iconos/sois_un_grupo.svg" alt="¿Sois un grupo?"></a></li>
             <li><a href="./nuestra-familia.html">Nuestra familia<img src="../img/iconos/nuestra_familia.svg" alt="Nuestra familia"></a></li>
-            <li style="background-color:#228DA8"><a href="./contacto.html">Contacto<img src="../img/iconos/contacto.svg" alt="Contacto"></a></li>
+            <li><a href="./contacto.html">Contacto<img src="../img/iconos/contacto.svg" alt="Contacto"></a></li>
         </ul>
     </nav>
 
@@ -83,67 +92,14 @@
         </button>
 
         <div>
-            <a id="logotipo-barra-bottom" href="../index.html"><img src="../img/iconos/logotipo_responsive.svg" alt="Logotipo de Feria83"></a>
+            <a id="logotipo-barra-bottom" href="#"><img src="../img/iconos/logotipo_responsive.svg" alt="Logotipo de Feria83"></a>
         </div>
 
-        <a href="carta.html">Carta</a>
+        <a href="html/carta.html">Carta</a>
 
     </div>
 
-    <main id="main-contacto">
-
-        <section>
-            <div class="metodo-contacto">
-                <figure>
-                    <img src="../img/contacto/ubicacion.svg" alt="Icono de ubicación">
-                </figure>
-                <a href="https://goo.gl/maps/HjMiSV6V8VE2ESTS8" target="_blank">C/ Feria 83 (41002 Sevilla)</a>
-            </div>
-
-            <div class="metodo-contacto">
-                <figure>
-                    <img src="../img/contacto/telefono.svg" alt="Icono de teléfono">
-                </figure>
-                <a href="tel:0034955704901">+34 955 704 901</a>
-            </div>
-
-            <div class="metodo-contacto">
-                <figure>
-                    <img src="../img/contacto/email.svg" alt="Icono de email">
-                </figure>
-                <a href="mailto:hola@feria83.com">hola@feria83.com</a>
-            </div>
-
-            <div class="metodo-contacto">
-                <figure>
-                    <img src="../img/contacto/instagram.svg" alt="Icono de Instagram">
-                </figure>
-                <a href="https://www.instagram.com/feria83_sevilla/" target="_blank">@feria83_sevilla</a>
-            </div>
-
-            <div class="metodo-contacto">
-                <figure>
-                    <img src="../img/contacto/tripadvisor.svg" alt="Icono de Tripadvisor">
-                </figure>
-                <a href="https://www.tripadvisor.es/Restaurant_Review-g187443-d18963738-Reviews-Feria_83-Seville_Province_of_Seville_Andalucia.html" target="_blank">Feria 83</a>
-            </div>
-
-            <div class="metodo-contacto">
-                <figure id="logotipo-contacto">
-                    <img src="../img/contacto/logotipo.svg" alt="Logotipo de Feria83">
-                </figure>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <a href="../html/aviso-legal.html" target="_blank">Aviso legal</a>
-        <p>Esta web no utiliza cookies.</p>
-        <a href="mailto:hola@feria83.com">hola@feria83.com</a>
-    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="../js/script.js"> </script>
     <script src="../js/script.js"> </script>
 </body></html>
