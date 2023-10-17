@@ -255,6 +255,39 @@ footer > p {
     margin: 1rem 0;
 }
 
+/* Estilos idiomas */
+#contenedor-idiomas {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 2;
+}
+
+.idiomas ul {
+    display: flex;
+    list-style: none;
+}
+
+.idiomas li {
+    padding: 0 2px
+}
+
+.idiomas a {
+    text-decoration: none;
+}
+
+.bandera {
+    width: 24px;
+    height: 24px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.bandera.activa {
+    border-color:  rgba(246, 169, 99, 0.8);
+}
+
 /*Estilos Index*/
 #header-index {
     display: flex;
@@ -530,6 +563,7 @@ footer > p {
 .div-reserva a:first-of-type {
     margin-left: 0;
 }
+
 
 /*Acaban estilos tarjeta regalo*/
 /* empiezan estilos grupos */
