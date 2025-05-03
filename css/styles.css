@@ -898,6 +898,10 @@ footer > p {
     font-weight: 600;
 }
 
+.nombre-producto-afternoon-tea{
+    width: 120px;
+}
+
 .precio-producto {
     line-height: 1em;
     margin: 0;
@@ -912,6 +916,16 @@ footer > p {
     font-style: italic;
     margin: 0.5rem 0;
 }
+.descripcion-precio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #75512F;
+    line-height: 1em;
+    font-size: 11pt;
+    float: right;
+}
+
 
 .mas-informacion-producto {
     display: flex;
