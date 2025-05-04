@@ -3,7 +3,6 @@
 $(document).ready(function () {
 
     $(".modal-carta").hide();
-    $(".alergenos").hide();
     $(".foto-producto").hide();
     $("#pantalla-carga").delay(300).slideUp("slow");
 
@@ -14,11 +13,6 @@ $(document).ready(function () {
             'width': 'calc(100% - 200px)',
             'margin-left': '200px'
         });
-
-        /*$(".foto-separadora").css({
-            'width': 'calc(100% - 200px)',
-            'margin-left': '200px'
-        });*/
 
         $("footer").css({
             'width': 'calc(100% - 200px)',
@@ -35,17 +29,22 @@ $(document).ready(function () {
 
     $(".cerrar-modal").click(function () {
         $(this).parent().parent().fadeOut();
-        $(".alergenos").hide();
         $(".foto-producto").hide();
-    });
-
-    $(".ver-alergenos").click(function () {
-        $(this).siblings('.alergenos').slideToggle();
     });
 
     $(".ver-foto").click(function () {
         $(this).siblings('.foto-producto').slideToggle();
-    });
+        const status = $(this).find(".ver-foto-zoom-status");
+        const actual = status.text().trim();
+
+        if (actual === '+') {
+            status.text('-');
+            status.css('margin-top', '-3px');
+        } else {
+            status.text('+');
+            status.css('margin-top', '0px');
+        }
+        });
 
     $("#desayunos").click(function () {
         $("#modal-desayunos").fadeIn()
