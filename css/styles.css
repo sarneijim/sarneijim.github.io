@@ -906,6 +906,7 @@ footer > p {
     line-height: 1em;
     margin: 0;
     font-size: 11pt;
+    text-align: right;
 }
 
 .descripcion-producto > p {
