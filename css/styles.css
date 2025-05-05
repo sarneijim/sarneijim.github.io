@@ -1437,9 +1437,6 @@ footer > p {
         width: calc(100% - 2rem);
     }
 
-    .cerrar-modal {
-        background: none;
-    }
 
     .foto-seccion {
         margin-top: 0;
