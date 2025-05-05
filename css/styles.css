@@ -892,11 +892,23 @@ footer > p {
 .nombre-producto {
     margin: 0;
     font-size: 11pt;
-    width: 80%;
     height: auto;
     font-family: montserrat;
     font-weight: 600;
+    position: relative;
 }
+
+.vegan .nombre-producto::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: -22px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/carta/vegan.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
 .nombre-producto-afternoon-tea{
     width: 120px;
