@@ -843,7 +843,7 @@ footer > p {
 .cerrar-modal > span {
     font-size: 30pt;
     color: #F6A963;
-    background-color: white;
+    background: white;
     border-radius: 50%;
 }
 
