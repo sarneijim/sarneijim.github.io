@@ -845,6 +845,9 @@ footer > p {
     color: #F6A963;
     background: white;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
 }
 
 .cerrar-modal:hover > span {
