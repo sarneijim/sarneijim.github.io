@@ -38,7 +38,7 @@ p {
 }
 
 #pantalla-carga {
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     background-color: white;
     position: fixed;
@@ -101,7 +101,7 @@ p {
 
 #menu {
     display: flex;
-    height: 100vh;
+    height: 100dvh;
     width: 12%;
     max-width: 200px;
     background-color: rgba(246, 169, 99, 0.8);
@@ -143,7 +143,6 @@ p {
 
 #menu > ul > li > a {
     display: flex;
-    justify-content: space-between;
     flex-direction: column-reverse;
     text-decoration: none;
     color: white;
@@ -291,7 +290,7 @@ footer > p {
 /*Estilos Index*/
 #header-index {
     display: flex;
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
 }
 
@@ -312,7 +311,7 @@ footer > p {
 }
 
 #main-nuestra-familia > #intro {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -355,7 +354,7 @@ footer > p {
 }
 
 #manera-de-ser {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -375,7 +374,7 @@ footer > p {
 }
 
 #nuestra-propuesta {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -412,7 +411,7 @@ footer > p {
 /*Acaban estilos nuestra familia*/
 /*Empiezan estilos tarjeta regalo*/
 #main-tarjeta-regalo > header {
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
 }
@@ -453,7 +452,7 @@ footer > p {
 }
 
 #opciones-tarjeta-regalo {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     justify-content: center;
     margin-top: 8vh;
@@ -510,7 +509,7 @@ footer > p {
     position: absolute;
     top: 0;
     height: 0;
-    left: calc(17%+2rem);
+    left: calc(17% + 2rem);
     width: calc(66% - 4rem);
     border-top: solid thin #F6A963;
     margin: auto;
@@ -573,7 +572,7 @@ footer > p {
 }
 
 #header-grupos {
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -773,7 +772,7 @@ footer > p {
     top: 0;
     width: 88%;
     right: 0;
-    height: 100vh;
+    height: 100dvh;
     z-index: 2;
     backdrop-filter: blur(10px) saturate(110%) brightness(100%);
     display: flex;
@@ -1098,7 +1097,7 @@ footer > p {
 
     #video-movil {
         display: flex;
-        height: 100vh;
+        height: 100dvh;
     }
 
     #menu {
@@ -1260,9 +1259,6 @@ footer > p {
 
 
     /*    empiezan media queries grupos*/
-
-
-    #main-grupos > #header-grupos {}
 
     #header-grupos {
         height: auto;
