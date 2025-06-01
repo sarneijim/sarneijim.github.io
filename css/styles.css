@@ -290,7 +290,7 @@ footer > p {
 /*Estilos Index*/
 #header-index {
     display: flex;
-    height: 100svh;
+    height: 100dvh;
     overflow: hidden;
 }
 
