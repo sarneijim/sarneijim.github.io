@@ -2,6 +2,15 @@
 
 $(document).ready(function () {
 
+    function ajustarAlturaVideo() {
+        var altura = window.innerHeight;
+        $('#header-index').css('height', altura + 'px');
+    }
+
+    // Ejecutar al cargar y al cambiar tamaño
+    ajustarAlturaVideo();
+    $(window).on('resize orientationchange', ajustarAlturaVideo);
+
     $(".modal-carta").hide();
     $(".foto-producto").hide();
     $("#pantalla-carga").delay(300).slideUp("slow");
